@@ -1,5 +1,4 @@
 
-var util = require('../../util/util.js')
 const app = getApp()
 
 Page({
@@ -49,8 +48,7 @@ Page({
     }
     
   },
-  onTap: function(e) {
-    // console.log(this.data.userInfo)
+  onTap: function() {
     var userInfo = this.data.userInfo
     
     var url = app.globalData.domain+"user/add"
