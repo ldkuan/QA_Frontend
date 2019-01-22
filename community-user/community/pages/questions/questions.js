@@ -1,7 +1,4 @@
-// pages/questions/questions.js
-//questions.js
 
-var util = require('../../util/util.js')
 var app = getApp()
 Page({
   data: {
@@ -17,7 +14,7 @@ Page({
     })
   },
 
-  onTap: function(e) {
+  onTap: function() {
     wx.navigateTo({
       url: '../ask/ask'
     })
